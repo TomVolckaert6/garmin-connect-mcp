@@ -2,6 +2,7 @@ services:
   - type: web
     name: garmin-connect-mcp
     runtime: docker
+    plan: free
     dockerfilePath: ./Dockerfile
     healthCheckPath: /health
     envVars:
